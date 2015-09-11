@@ -4,10 +4,10 @@ header-img: img/home-bg.jpg
 email: your-email@yourdomain.com
 description: "Write your site description here. It will be used as your sites meta description as well!"
 baseurl: ""
-url: "http://jahedulislam.com"
-twitter_username: ronyislam95
-github_username:  dreamcatcher95
-facebook_username:  rony.islam95
+url: "https://dreamcather95.github.io"
+twitter_username: 
+github_username:  
+facebook_username:  
 
 # Build settings
 markdown: kramdown
