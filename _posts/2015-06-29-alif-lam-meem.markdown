@@ -4,7 +4,7 @@ title:      "Verse 2:1"
 subtitle:   "Let it go, let it go"
 date:       2015-06-29 12:00:00
 author:     "The Sandman"
-header-img: "img/breakfast.jpg"
+header-img: "img/in-a-field.jpg"
 category:   "quranic"
 ---
 

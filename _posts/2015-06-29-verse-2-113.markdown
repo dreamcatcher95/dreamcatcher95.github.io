@@ -4,7 +4,7 @@ title:      "Verse 2:113"
 subtitle:   "Pointing the finger"
 date:       2015-06-30 12:00:00
 author:     "The Sandman"
-header-img: "img/breakfast.jpg"
+header-img: "img/republican-debate-stage.jpg"
 category:   "quranic"
 ---
 
