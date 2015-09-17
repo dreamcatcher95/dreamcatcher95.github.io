@@ -5,6 +5,7 @@ subtitle:   "We all love it. But does it love us?"
 date:       2015-02-13 12:00:00
 author:     "The Sandman"
 header-img: "img/breakfast.jpg"
+category:   "dreamcatcher"
 ---
 
 <p>I just wanted to rant about something that I've noticed and that I'm guilty of. Eating. Food. Unfortunately, in the 21st century we've stopped really eating. To be honest, I can't even remember the last time I've eaten food. Actually it was a few months ago, for Ramadan. At this point I've been really vague and confusing. Especially since the last time I say I ate food was during a month that is known for NOT eating food.</p>

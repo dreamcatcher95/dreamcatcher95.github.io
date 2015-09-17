@@ -5,6 +5,7 @@ subtitle:   "Going where no money has gone"
 date:       2015-01-08 12:00:00
 author:     "The Sandman"
 header-img: "img/coins.jpg"
+categories:   [dreamcatcher]
 ---
 
 <p>A lot of times people are faced with hardships. Bills, medical expenses, educational expenses, living expenses, etc. We get caught in this cycle of making money and trying to spend it in the best way possible. What we see as a good investment. Unfortunately, a majority of our society spends so much time trying to make an investment to maintain the present that they can't invest in their future. Hence, living from paycheck to paycheck. But how many of us actually realize that there are still people in our own country starving and dying from hunger? The homeless guy at the corner at the Subway is an isolated case, he made bad life decisions. Or not?</p>

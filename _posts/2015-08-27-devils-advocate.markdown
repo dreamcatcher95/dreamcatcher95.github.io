@@ -5,6 +5,7 @@ subtitle:   "And my case for him."
 date:       2015-08-27 12:00:00
 author:     "The Sandman"
 header-img: "img/microphone.jpg"
+category:   "dreamcatcher"
 ---
 
 <p>Asking questions is a fundamental method in which we learn and grow. Without asking questions it's quite difficult to reach answers, solutions, and analysis. Asking questions allow us to implore the paths less traveled and sparks our imagination in the pursuit of more knowledge. We see this in religion, academia, journalism, and our daily lives. Would Abraham find God if he didn't seek out the divine in everything around him? Would a student write a thesis paper if he didn't pose a question? Would a journalist chase down a lead if people didn't ask for the truth? Would you post your selfie on Instagram if you didn't want to know what people think about your makeup? These aren't absolutes regarding any one person, but rather, it just shows that questions drive a lot, if not everything, we do.</p>
