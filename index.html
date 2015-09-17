@@ -17,25 +17,28 @@ description: "A Collection of Thoughts, Rants, and Punctuation."
     <a href="https://dreamcatcher95.github.io{{ post.url }}#disqus_thread">Comments</a>
     <h3></h3>
     <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+
 </div>
-<hr>
 {% endfor %}
 
-<!-- Pager -->
+<!-- Pager--> 
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
     {% if paginator.previous_page %}
     <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
+        <a href="http://localhost:4000{{ /paginator.previous_page_path }}">&larr; Newer Posts</a>
     </li>
     {% endif %}
     {% if paginator.next_page %}
     <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
+        <a href="http://localhost:4000{{ /paginator.next_page_path }}/">Older Posts &rarr;</a>
     </li>
     {% endif %}
 </ul>
 {% endif %}
+
+
+
 
 <script type="text/javascript">
 /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
@@ -48,4 +51,28 @@ s.type = 'text/javascript';
 s.src = '//' + disqus_shortname + '.disqus.com/count.js';
 (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
 }());
+</script>
+
+<script type="text/javascript">
+
+    var ias = jQuery.ias({
+  container:  '#contained',
+  item:       '.post-preview',
+  pagination: '.pager',
+  next:       '.next a'
+});
+
+ias.extension(new IASSpinnerExtension({
+    src: '/img/loader.gif', // optionally
+}));
+ias.extension(new IASNoneLeftExtension({
+  text: 'Keep Dreaming!'      // override text when no pages left
+    }));
+ias.extension(new IASTriggerExtension({textPrev:"Load Previous Posts", offset:10}));
+ias.extension(new IASPagingExtension());
+
+ias.extension(new IASHistoryExtension({
+    prev: '.previous a',
+}));
+    
 </script>
