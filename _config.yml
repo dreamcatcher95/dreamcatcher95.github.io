@@ -1,8 +1,8 @@
 # Site settings
 title: Dream Catcher
 header-img: img/home-bg.jpg
-email: your-email@yourdomain.com
-description: "Write your site description here. It will be used as your sites meta description as well!"
+email: rony.islam1295@gmail.com
+description: "A Collection of Thoughts, Rants, and Punctuation."
 baseurl: ""
 url: "https://dreamcather95.github.io"
 twitter_username: 
@@ -13,5 +13,5 @@ facebook_username:
 markdown: kramdown
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 7
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]
