@@ -8,7 +8,7 @@ header-img: "img/agenda-time.jpg"
 category:   "dreamcatcher"
 ---
 
-<p>We have are always drilled to build and keep up with a schedule. Write down our plans, carry them out, and stay on track. In elementary school we had agenda books and in our careers we keep a calendar or die trying. I'm a huge fan of keeping track of time, it guides me and keeps me on track. But lately my calendar has been falling apart. I've dedicated unknown amounts of time to personal projects. Some time here, some time there. Unfortunately I've also not finished a project in some time now. I've got a pair of speakers laying around, a website half built, and a startup left on simmer. This made me think, should I start building these things into my schedule? And I've found my answer.</p>
+<p>We have always drilled to build and keep up with a schedule. Write down our plans, carry them out, and stay on track. In elementary school we had agenda books and in our careers we keep a calendar or die trying. I'm a huge fan of keeping track of time, it guides me and keeps me on track. But lately my calendar has been falling apart. I've dedicated unknown amounts of time to personal projects. Some time here, some time there. Unfortunately I've also not finished a project in some time now. I've got a pair of speakers laying around, a website half built, and a startup left on simmer. This made me think, should I start building these things into my schedule? And I've found my answer.</p>
 
 <p>So there are two sides to this coin. Hopefully by the end of this reflection we can land right on the middle. Find balance.</p>
 
