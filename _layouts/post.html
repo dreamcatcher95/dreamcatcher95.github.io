@@ -37,9 +37,17 @@ layout: default
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 
 				{{ content }}
-
+                <div id="share">
+                     <!-- Twitter -->
+                    <a href="http://twitter.com/home?status=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                     <!-- Facebook -->
+                    <a href="https://www.facebook.com/sharer/sharer.php?u=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                    <!-- Google+ -->
+                    <a href="https://plus.google.com/share?url=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i> Google+</a>
+                    <!-- StumbleUpon -->
+                    <a href="http://www.stumbleupon.com/badge?url={{ page.url | prepend: site.url }}&title={{ page.title }}&nsfw=0" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+                </div>
                 <hr>
-
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">
@@ -58,7 +66,6 @@ layout: default
     </div>
 </article>
 
-<hr>
 
 <div id="disqus_thread"></div>
 <script type="text/javascript">
