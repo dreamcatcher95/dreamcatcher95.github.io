@@ -460,3 +460,9 @@ body {
 .ssb-fixed-r {
     right: 0
 }
+
+@media screen and (max-width: 876px) {
+    .ssb {
+        display: none !important;
+    }
+}
