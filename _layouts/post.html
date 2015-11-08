@@ -30,6 +30,23 @@ layout: default
     </div>
 </header>
 
+<div class="ssb ssb-fixed-l" id="example2">
+			<!-- Twitter -->
+                    <a href="http://twitter.com/home?status=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Twitter" target="_blank" class="btn btn-twitter btn-default"><i class="fa fa-twitter"></i> Twitter</a>
+                     <!-- Facebook -->
+                    <a href="http://www.facebook.com/sharer.php?s=100&p[url]={{ page.url | prepend: site.url }}&p[images][0]={{page.header-img}}&p[title]={{page.title}}&p[summary]={{page.subtitle}}" title="Share on Facebook" target="_blank" class="btn btn-facebook btn-default"><i class="fa fa-facebook"></i> Facebook</a>
+                    <!-- Google+ -->
+                    <a href="https://plus.google.com/share?url={{page.url | prepend: site.url}}" title="Share on Google+" target="_blank" class="btn btn-googleplus btn-default"><i class="fa fa-google-plus"></i> Google+</a>
+                    <!-- StumbleUpon -->
+                    <a href="http://www.stumbleupon.com/badge?url={{ page.url | prepend: site.url }}&title={{ page.title }}&nsfw=0" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon btn-default"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+                    <!-- LinkedIn -->
+			<a href="http://www.linkedin.com/shareArticle?url={{page.url |prepend:site.url}}&title={{page.title}}: {{page.subtitle}}" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin btn-default"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <!-- Tumblr -->
+			<a href="http://www.tumblr.com/share/link?url={{ page.url | prepend: site.url }}&name={{page.title}}&description={{page.subtitle}}" title="Share on Tumblr" target="_blank" class="btn btn-tumblr btn-default"><i class="fa fa-tumblr"></i> Tumblr</a>
+                    <!-- Pinterest -->
+			<a href="https://pinterest.com/pin/create/bookmarklet/?media={{page.header-img}}&url={{ page.url | prepend: site.url }}&description={{page.title}}: {{page.subtitle}}" title="Share on Pinterest" target="_blank" class="btn btn-pinterest btn-default"><i class="fa fa-pinterest"></i> Pinterest</a>
+		</div>
+
 <!-- Post Content -->
 <article>
     <div class="container">
@@ -39,15 +56,22 @@ layout: default
 				{{ content }}
                 <div id="share">
                      <!-- Twitter -->
-                    <a href="http://twitter.com/home?status=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Twitter" target="_blank" class="btn btn-twitter"><i class="fa fa-twitter"></i> Twitter</a>
+                    <a href="http://twitter.com/home?status=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Twitter" target="_blank" class="btn btn-twitter btn-default" style="margin-top:3px;"><i class="fa fa-twitter"></i> Twitter</a>
                      <!-- Facebook -->
-                    <a href="https://www.facebook.com/sharer/sharer.php?u=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Facebook" target="_blank" class="btn btn-facebook"><i class="fa fa-facebook"></i> Facebook</a>
+                    <a href="http://www.facebook.com/sharer.php?s=100&p[url]={{ page.url | prepend: site.url }}&p[images][0]={{page.header-img}}&p[title]={{page.title}}&p[summary]={{page.subtitle}}" title="Share on Facebook" target="_blank" class="btn btn-facebook btn-default" style="margin-top:3px;"><i class="fa fa-facebook"></i> Facebook</a>
                     <!-- Google+ -->
-                    <a href="https://plus.google.com/share?url=Check out: '{{ page.title }}: {{ page.subtitle }}' @ {{ page.url | prepend: site.url }} %23dreamcatcher95" title="Share on Google+" target="_blank" class="btn btn-googleplus"><i class="fa fa-google-plus"></i> Google+</a>
+                    <a href="https://plus.google.com/share?url={{page.url | prepend: site.url}}" title="Share on Google+" target="_blank" class="btn btn-googleplus btn-default" style="margin-top:3px;"><i class="fa fa-google-plus"></i> Google+</a>
                     <!-- StumbleUpon -->
-                    <a href="http://www.stumbleupon.com/badge?url={{ page.url | prepend: site.url }}&title={{ page.title }}&nsfw=0" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+                    <a href="http://www.stumbleupon.com/badge?url={{ page.url | prepend: site.url }}&title={{ page.title }}&nsfw=0" title="Share on StumbleUpon" target="_blank" data-placement="top" class="btn btn-stumbleupon btn-default" style="margin-top:3px;"><i class="fa fa-stumbleupon"></i> Stumbleupon</a>
+                    <!-- LinkedIn -->
+			<a href="http://www.linkedin.com/shareArticle?url={{page.url |prepend:site.url}}&title={{page.title}}: {{page.subtitle}}" title="Share on LinkedIn" target="_blank" class="btn btn-linkedin btn-default" style="margin-top:3px;"><i class="fa fa-linkedin"></i> LinkedIn</a>
+                    <!-- Tumblr -->
+			<a href="http://www.tumblr.com/share/link?url={{ page.url | prepend: site.url }}&name={{page.title}}&description={{page.subtitle}}" title="Share on Tumblr" target="_blank" class="btn btn-tumblr btn-default" style="margin-top:3px;"><i class="fa fa-tumblr"></i> Tumblr</a>
+                    <!-- Pinterest -->
+			<a href="https://pinterest.com/pin/create/bookmarklet/?media={{page.header-img}}&url={{ page.url | prepend: site.url }}&description={{page.title}}: {{page.subtitle}}" title="Share on Pinterest" target="_blank" class="btn btn-pinterest btn-default" style="margin-top:3px;"><i class="fa fa-pinterest"></i> Pinterest</a>
                 </div>
                 <hr>
+
                 <ul class="pager">
                     {% if page.previous.url %}
                     <li class="previous">

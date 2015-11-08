@@ -426,3 +426,37 @@ body {
   }
 }
 
+.ssb {
+    font-size: 0
+}
+.ssb .btn {
+    font-size: 14px;
+    margin: 5px;
+    transition: background-color .25s ease;
+    border-radius: 0
+}
+.ssb-fixed-l,
+.ssb-fixed-r {
+    position: fixed;
+    top: 50%;
+    margin: -125px 0 0;
+    height: 250px
+}
+.ssb-fixed-l .btn,
+.ssb-fixed-l .btn i,
+.ssb-fixed-r .btn,
+.ssb-fixed-r .btn i {
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    overflow: hidden
+}
+.ssb-fixed-l {
+    left: 0
+}
+.ssb-fixed-r {
+    right: 0
+}
